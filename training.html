@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event function</h1>
+    <p id="change"> this is a function for event</p>
+     <!--<button onclick="showmessage()">click me </button>-->
+     
+    <!--- <script>
+        function showmessage(){
+            alert("button click")
+        }
+     </script>--->
+     <button onclick="changeMessage()">click me</button>
+     <script>
+        function changeMessage() {
+           document.getElementById('change').innerHTML = 'this is the changed message';
+        }
+            </script>
+</body>
+</html>
